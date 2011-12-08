@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361E8798147A37AA00068CBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E8797147A37AA00068CBD /* UIKit.framework */; };
+		361E879A147A37AA00068CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E8799147A37AA00068CBD /* Foundation.framework */; };
+		361E879C147A37AA00068CBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E879B147A37AA00068CBD /* CoreGraphics.framework */; };
+		361E87A2147A37AA00068CBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 361E87A0147A37AA00068CBD /* InfoPlist.strings */; };
+		361E87A4147A37AA00068CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E87A3147A37AA00068CBD /* main.m */; };
+		361E87A8147A37AA00068CBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E87A7147A37AA00068CBD /* AppDelegate.m */; };
+		361E87AB147A37AA00068CBD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361E87A9147A37AA00068CBD /* MainStoryboard_iPhone.storyboard */; };
+		361E87AE147A37AA00068CBD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361E87AC147A37AA00068CBD /* MainStoryboard_iPad.storyboard */; };
+		361E87B1147A37AA00068CBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E87B0147A37AA00068CBD /* ViewController.m */; };
+		361E87B9147A37AA00068CBD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E87B8147A37AA00068CBD /* SenTestingKit.framework */; };
+		361E87BA147A37AA00068CBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E8797147A37AA00068CBD /* UIKit.framework */; };
+		361E87BB147A37AA00068CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E8799147A37AA00068CBD /* Foundation.framework */; };
+		361E87C3147A37AA00068CBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 361E87C1147A37AA00068CBD /* InfoPlist.strings */; };
+		361E87C6147A37AA00068CBD /* TreasureHuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E87C5147A37AA00068CBD /* TreasureHuntTests.m */; };
+		361E87D2147A385900068CBD /* SelectActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E87D1147A385900068CBD /* SelectActor.m */; };
+		361E87DB147A387A00068CBD /* AFItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E87D5147A387A00068CBD /* AFItemView.m */; };
+		361E87DC147A387A00068CBD /* AFOpenFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E87D8147A387A00068CBD /* AFOpenFlowView.m */; };
+		361E87DD147A387A00068CBD /* AFUIImageReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E87DA147A387A00068CBD /* AFUIImageReflection.m */; };
+		361E87E7147A397B00068CBD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E87E6147A397B00068CBD /* QuartzCore.framework */; };
+		361E880F147A415600068CBD /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E880E147A415600068CBD /* 0.png */; };
+		361E8811147A415C00068CBD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E8810147A415C00068CBD /* 1.png */; };
+		361E8813147A417D00068CBD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E8812147A417D00068CBD /* 2.png */; };
+		361E8815147A418700068CBD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E8814147A418700068CBD /* 3.png */; };
+		361E8819147A442400068CBD /* MapWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E8818147A442400068CBD /* MapWorld.png */; };
+		361E881F147A492500068CBD /* BG101.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E881E147A492500068CBD /* BG101.png */; };
+		361E8822147A492E00068CBD /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 361E8821147A492E00068CBD /* Title.png */; };
+		367E96C8147D5415003F0E2B /* bg_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 367E96C7147D5415003F0E2B /* bg_login.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361E87BC147A37AA00068CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361E878A147A37AA00068CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361E8792147A37AA00068CBD;
+			remoteInfo = TreasureHunt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361E8793147A37AA00068CBD /* TreasureHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreasureHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E8797147A37AA00068CBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		361E8799147A37AA00068CBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		361E879B147A37AA00068CBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		361E879F147A37AA00068CBD /* TreasureHunt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreasureHunt-Info.plist"; sourceTree = "<group>"; };
+		361E87A1147A37AA00068CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		361E87A3147A37AA00068CBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		361E87A5147A37AA00068CBD /* TreasureHunt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TreasureHunt-Prefix.pch"; sourceTree = "<group>"; };
+		361E87A6147A37AA00068CBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		361E87A7147A37AA00068CBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		361E87AA147A37AA00068CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		361E87AD147A37AA00068CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		361E87AF147A37AA00068CBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		361E87B0147A37AA00068CBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		361E87B7147A37AA00068CBD /* TreasureHuntTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasureHuntTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E87B8147A37AA00068CBD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		361E87C0147A37AA00068CBD /* TreasureHuntTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TreasureHuntTests-Info.plist"; sourceTree = "<group>"; };
+		361E87C2147A37AA00068CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		361E87C4147A37AA00068CBD /* TreasureHuntTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreasureHuntTests.h; sourceTree = "<group>"; };
+		361E87C5147A37AA00068CBD /* TreasureHuntTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreasureHuntTests.m; sourceTree = "<group>"; };
+		361E87D0147A385900068CBD /* SelectActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectActor.h; sourceTree = "<group>"; };
+		361E87D1147A385900068CBD /* SelectActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectActor.m; sourceTree = "<group>"; };
+		361E87D4147A387A00068CBD /* AFItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFItemView.h; sourceTree = "<group>"; };
+		361E87D5147A387A00068CBD /* AFItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFItemView.m; sourceTree = "<group>"; };
+		361E87D6147A387A00068CBD /* AFOpenFlowConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenFlowConstants.h; sourceTree = "<group>"; };
+		361E87D7147A387A00068CBD /* AFOpenFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenFlowView.h; sourceTree = "<group>"; };
+		361E87D8147A387A00068CBD /* AFOpenFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOpenFlowView.m; sourceTree = "<group>"; };
+		361E87D9147A387A00068CBD /* AFUIImageReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUIImageReflection.h; sourceTree = "<group>"; };
+		361E87DA147A387A00068CBD /* AFUIImageReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIImageReflection.m; sourceTree = "<group>"; };
+		361E87E6147A397B00068CBD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		361E880E147A415600068CBD /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		361E8810147A415C00068CBD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		361E8812147A417D00068CBD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		361E8814147A418700068CBD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		361E8818147A442400068CBD /* MapWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapWorld.png; sourceTree = "<group>"; };
+		361E881E147A492500068CBD /* BG101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG101.png; sourceTree = "<group>"; };
+		361E8821147A492E00068CBD /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		367E96C7147D5415003F0E2B /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_login.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361E8790147A37AA00068CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E87E7147A397B00068CBD /* QuartzCore.framework in Frameworks */,
+				361E8798147A37AA00068CBD /* UIKit.framework in Frameworks */,
+				361E879A147A37AA00068CBD /* Foundation.framework in Frameworks */,
+				361E879C147A37AA00068CBD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E87B3147A37AA00068CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E87B9147A37AA00068CBD /* SenTestingKit.framework in Frameworks */,
+				361E87BA147A37AA00068CBD /* UIKit.framework in Frameworks */,
+				361E87BB147A37AA00068CBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361E8788147A37AA00068CBD = {
+			isa = PBXGroup;
+			children = (
+				361E879D147A37AA00068CBD /* TreasureHunt */,
+				361E87BE147A37AA00068CBD /* TreasureHuntTests */,
+				361E8796147A37AA00068CBD /* Frameworks */,
+				361E8794147A37AA00068CBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		361E8794147A37AA00068CBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361E8793147A37AA00068CBD /* TreasureHunt.app */,
+				361E87B7147A37AA00068CBD /* TreasureHuntTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361E8796147A37AA00068CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				361E87E6147A397B00068CBD /* QuartzCore.framework */,
+				361E8797147A37AA00068CBD /* UIKit.framework */,
+				361E8799147A37AA00068CBD /* Foundation.framework */,
+				361E879B147A37AA00068CBD /* CoreGraphics.framework */,
+				361E87B8147A37AA00068CBD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		361E879D147A37AA00068CBD /* TreasureHunt */ = {
+			isa = PBXGroup;
+			children = (
+				361E87CF147A380A00068CBD /* GamController */,
+				361E87A6147A37AA00068CBD /* AppDelegate.h */,
+				361E87A7147A37AA00068CBD /* AppDelegate.m */,
+				361E87A9147A37AA00068CBD /* MainStoryboard_iPhone.storyboard */,
+				361E87AC147A37AA00068CBD /* MainStoryboard_iPad.storyboard */,
+				361E87AF147A37AA00068CBD /* ViewController.h */,
+				361E87B0147A37AA00068CBD /* ViewController.m */,
+				361E879E147A37AA00068CBD /* Supporting Files */,
+			);
+			path = TreasureHunt;
+			sourceTree = "<group>";
+		};
+		361E879E147A37AA00068CBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				367E96C5147D53D7003F0E2B /* background */,
+				361E880A147A3C0000068CBD /* actor */,
+				361E879F147A37AA00068CBD /* TreasureHunt-Info.plist */,
+				361E87A0147A37AA00068CBD /* InfoPlist.strings */,
+				361E87A3147A37AA00068CBD /* main.m */,
+				361E87A5147A37AA00068CBD /* TreasureHunt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		361E87BE147A37AA00068CBD /* TreasureHuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				361E87C4147A37AA00068CBD /* TreasureHuntTests.h */,
+				361E87C5147A37AA00068CBD /* TreasureHuntTests.m */,
+				361E87BF147A37AA00068CBD /* Supporting Files */,
+			);
+			path = TreasureHuntTests;
+			sourceTree = "<group>";
+		};
+		361E87BF147A37AA00068CBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				361E87C0147A37AA00068CBD /* TreasureHuntTests-Info.plist */,
+				361E87C1147A37AA00068CBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		361E87CF147A380A00068CBD /* GamController */ = {
+			isa = PBXGroup;
+			children = (
+				361E87D3147A387A00068CBD /* OpenFlow */,
+				361E87D0147A385900068CBD /* SelectActor.h */,
+				361E87D1147A385900068CBD /* SelectActor.m */,
+			);
+			name = GamController;
+			sourceTree = "<group>";
+		};
+		361E87D3147A387A00068CBD /* OpenFlow */ = {
+			isa = PBXGroup;
+			children = (
+				361E87D4147A387A00068CBD /* AFItemView.h */,
+				361E87D5147A387A00068CBD /* AFItemView.m */,
+				361E87D6147A387A00068CBD /* AFOpenFlowConstants.h */,
+				361E87D7147A387A00068CBD /* AFOpenFlowView.h */,
+				361E87D8147A387A00068CBD /* AFOpenFlowView.m */,
+				361E87D9147A387A00068CBD /* AFUIImageReflection.h */,
+				361E87DA147A387A00068CBD /* AFUIImageReflection.m */,
+			);
+			path = OpenFlow;
+			sourceTree = "<group>";
+		};
+		361E880A147A3C0000068CBD /* actor */ = {
+			isa = PBXGroup;
+			children = (
+				361E8821147A492E00068CBD /* Title.png */,
+				361E881E147A492500068CBD /* BG101.png */,
+				361E8818147A442400068CBD /* MapWorld.png */,
+				361E8814147A418700068CBD /* 3.png */,
+				361E8812147A417D00068CBD /* 2.png */,
+				361E8810147A415C00068CBD /* 1.png */,
+				361E880E147A415600068CBD /* 0.png */,
+			);
+			name = actor;
+			sourceTree = "<group>";
+		};
+		367E96C5147D53D7003F0E2B /* background */ = {
+			isa = PBXGroup;
+			children = (
+				367E96C7147D5415003F0E2B /* bg_login.png */,
+			);
+			name = background;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361E8792147A37AA00068CBD /* TreasureHunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361E87C9147A37AA00068CBD /* Build configuration list for PBXNativeTarget "TreasureHunt" */;
+			buildPhases = (
+				361E878F147A37AA00068CBD /* Sources */,
+				361E8790147A37AA00068CBD /* Frameworks */,
+				361E8791147A37AA00068CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreasureHunt;
+			productName = TreasureHunt;
+			productReference = 361E8793147A37AA00068CBD /* TreasureHunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361E87B6147A37AA00068CBD /* TreasureHuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361E87CC147A37AA00068CBD /* Build configuration list for PBXNativeTarget "TreasureHuntTests" */;
+			buildPhases = (
+				361E87B2147A37AA00068CBD /* Sources */,
+				361E87B3147A37AA00068CBD /* Frameworks */,
+				361E87B4147A37AA00068CBD /* Resources */,
+				361E87B5147A37AA00068CBD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361E87BD147A37AA00068CBD /* PBXTargetDependency */,
+			);
+			name = TreasureHuntTests;
+			productName = TreasureHuntTests;
+			productReference = 361E87B7147A37AA00068CBD /* TreasureHuntTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361E878A147A37AA00068CBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 361E878D147A37AA00068CBD /* Build configuration list for PBXProject "TreasureHunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 361E8788147A37AA00068CBD;
+			productRefGroup = 361E8794147A37AA00068CBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361E8792147A37AA00068CBD /* TreasureHunt */,
+				361E87B6147A37AA00068CBD /* TreasureHuntTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361E8791147A37AA00068CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E87A2147A37AA00068CBD /* InfoPlist.strings in Resources */,
+				361E87AB147A37AA00068CBD /* MainStoryboard_iPhone.storyboard in Resources */,
+				361E87AE147A37AA00068CBD /* MainStoryboard_iPad.storyboard in Resources */,
+				361E880F147A415600068CBD /* 0.png in Resources */,
+				361E8811147A415C00068CBD /* 1.png in Resources */,
+				361E8813147A417D00068CBD /* 2.png in Resources */,
+				361E8815147A418700068CBD /* 3.png in Resources */,
+				361E8819147A442400068CBD /* MapWorld.png in Resources */,
+				361E881F147A492500068CBD /* BG101.png in Resources */,
+				361E8822147A492E00068CBD /* Title.png in Resources */,
+				367E96C8147D5415003F0E2B /* bg_login.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E87B4147A37AA00068CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E87C3147A37AA00068CBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		361E87B5147A37AA00068CBD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361E878F147A37AA00068CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E87A4147A37AA00068CBD /* main.m in Sources */,
+				361E87A8147A37AA00068CBD /* AppDelegate.m in Sources */,
+				361E87B1147A37AA00068CBD /* ViewController.m in Sources */,
+				361E87D2147A385900068CBD /* SelectActor.m in Sources */,
+				361E87DB147A387A00068CBD /* AFItemView.m in Sources */,
+				361E87DC147A387A00068CBD /* AFOpenFlowView.m in Sources */,
+				361E87DD147A387A00068CBD /* AFUIImageReflection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E87B2147A37AA00068CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E87C6147A37AA00068CBD /* TreasureHuntTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361E87BD147A37AA00068CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361E8792147A37AA00068CBD /* TreasureHunt */;
+			targetProxy = 361E87BC147A37AA00068CBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		361E87A0147A37AA00068CBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361E87A1147A37AA00068CBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		361E87A9147A37AA00068CBD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361E87AA147A37AA00068CBD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		361E87AC147A37AA00068CBD /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361E87AD147A37AA00068CBD /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		361E87C1147A37AA00068CBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361E87C2147A37AA00068CBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		361E87C7147A37AA00068CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: liu yong (G82ESDQ9XL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "0AD25392-A7C2-4DEB-AC4B-C2E7A05BF256";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		361E87C8147A37AA00068CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: liu yong (G82ESDQ9XL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "0AD25392-A7C2-4DEB-AC4B-C2E7A05BF256";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361E87CA147A37AA00068CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: liu yong (G82ESDQ9XL)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreasureHunt/TreasureHunt-Prefix.pch";
+				INFOPLIST_FILE = "TreasureHunt/TreasureHunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		361E87CB147A37AA00068CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreasureHunt/TreasureHunt-Prefix.pch";
+				INFOPLIST_FILE = "TreasureHunt/TreasureHunt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		361E87CD147A37AA00068CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreasureHunt.app/TreasureHunt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreasureHunt/TreasureHunt-Prefix.pch";
+				INFOPLIST_FILE = "TreasureHuntTests/TreasureHuntTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		361E87CE147A37AA00068CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreasureHunt.app/TreasureHunt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TreasureHunt/TreasureHunt-Prefix.pch";
+				INFOPLIST_FILE = "TreasureHuntTests/TreasureHuntTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361E878D147A37AA00068CBD /* Build configuration list for PBXProject "TreasureHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E87C7147A37AA00068CBD /* Debug */,
+				361E87C8147A37AA00068CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361E87C9147A37AA00068CBD /* Build configuration list for PBXNativeTarget "TreasureHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E87CA147A37AA00068CBD /* Debug */,
+				361E87CB147A37AA00068CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361E87CC147A37AA00068CBD /* Build configuration list for PBXNativeTarget "TreasureHuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E87CD147A37AA00068CBD /* Debug */,
+				361E87CE147A37AA00068CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361E878A147A37AA00068CBD /* Project object */;
+}
