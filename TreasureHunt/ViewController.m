@@ -66,7 +66,7 @@
      Title2.alpha=1;
      Title2.alpha=0.5;
      Title2.alpha=0.6;
-    Title1.alpha=0.811;
+    Title1.alpha=0.833;
     [UIView commitAnimations];
     
 }
