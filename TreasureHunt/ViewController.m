@@ -65,8 +65,10 @@
      Title2.alpha=0;
      Title2.alpha=1;
      Title2.alpha=0.5;
+     Title2.alpha=0.6;
     
     [UIView commitAnimations];
+    
 }
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
