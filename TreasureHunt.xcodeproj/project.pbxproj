@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360EE5781491BF4F008EB7E4 /* GameMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 360EE5771491BF4F008EB7E4 /* GameMainView.m */; };
+		360EE57A1491EB3E008EB7E4 /* BG301.png in Resources */ = {isa = PBXBuildFile; fileRef = 360EE5791491EB3E008EB7E4 /* BG301.png */; };
+		360EE57C1491EB5B008EB7E4 /* MapArea01.png in Resources */ = {isa = PBXBuildFile; fileRef = 360EE57B1491EB5B008EB7E4 /* MapArea01.png */; };
+		360EE57E1491EB88008EB7E4 /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 360EE57D1491EB88008EB7E4 /* Ship.png */; };
+		360EE5811491EDFA008EB7E4 /* IconHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 360EE57F1491EDFA008EB7E4 /* IconHead.png */; };
+		360EE5821491EDFA008EB7E4 /* MapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 360EE5801491EDFA008EB7E4 /* MapIcon.png */; };
+		360EE5BC14920949008EB7E4 /* MessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 360EE5BB14920949008EB7E4 /* MessageInfo.m */; };
+		360EE5C01492EA74008EB7E4 /* ScrollviewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 360EE5BF1492EA74008EB7E4 /* ScrollviewItem.m */; };
 		361E8798147A37AA00068CBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E8797147A37AA00068CBD /* UIKit.framework */; };
 		361E879A147A37AA00068CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E8799147A37AA00068CBD /* Foundation.framework */; };
 		361E879C147A37AA00068CBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361E879B147A37AA00068CBD /* CoreGraphics.framework */; };
@@ -47,6 +55,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		360EE5761491BF4F008EB7E4 /* GameMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainView.h; sourceTree = "<group>"; };
+		360EE5771491BF4F008EB7E4 /* GameMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainView.m; sourceTree = "<group>"; };
+		360EE5791491EB3E008EB7E4 /* BG301.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG301.png; sourceTree = "<group>"; };
+		360EE57B1491EB5B008EB7E4 /* MapArea01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapArea01.png; sourceTree = "<group>"; };
+		360EE57D1491EB88008EB7E4 /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
+		360EE57F1491EDFA008EB7E4 /* IconHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconHead.png; sourceTree = "<group>"; };
+		360EE5801491EDFA008EB7E4 /* MapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapIcon.png; sourceTree = "<group>"; };
+		360EE5BA14920949008EB7E4 /* MessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInfo.h; sourceTree = "<group>"; };
+		360EE5BB14920949008EB7E4 /* MessageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInfo.m; sourceTree = "<group>"; };
+		360EE5BE1492EA74008EB7E4 /* ScrollviewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollviewItem.h; sourceTree = "<group>"; };
+		360EE5BF1492EA74008EB7E4 /* ScrollviewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollviewItem.m; sourceTree = "<group>"; };
 		361E8793147A37AA00068CBD /* TreasureHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreasureHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		361E8797147A37AA00068CBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		361E8799147A37AA00068CBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -151,8 +170,12 @@
 				361E87A7147A37AA00068CBD /* AppDelegate.m */,
 				361E87A9147A37AA00068CBD /* MainStoryboard_iPhone.storyboard */,
 				361E87AC147A37AA00068CBD /* MainStoryboard_iPad.storyboard */,
+				360EE5761491BF4F008EB7E4 /* GameMainView.h */,
+				360EE5771491BF4F008EB7E4 /* GameMainView.m */,
 				361E87AF147A37AA00068CBD /* ViewController.h */,
 				361E87B0147A37AA00068CBD /* ViewController.m */,
+				360EE5BE1492EA74008EB7E4 /* ScrollviewItem.h */,
+				360EE5BF1492EA74008EB7E4 /* ScrollviewItem.m */,
 				361E879E147A37AA00068CBD /* Supporting Files */,
 			);
 			path = TreasureHunt;
@@ -196,6 +219,8 @@
 				361E87D3147A387A00068CBD /* OpenFlow */,
 				361E87D0147A385900068CBD /* SelectActor.h */,
 				361E87D1147A385900068CBD /* SelectActor.m */,
+				360EE5BA14920949008EB7E4 /* MessageInfo.h */,
+				360EE5BB14920949008EB7E4 /* MessageInfo.m */,
 			);
 			name = GamController;
 			sourceTree = "<group>";
@@ -231,6 +256,11 @@
 		367E96C5147D53D7003F0E2B /* background */ = {
 			isa = PBXGroup;
 			children = (
+				360EE57F1491EDFA008EB7E4 /* IconHead.png */,
+				360EE5801491EDFA008EB7E4 /* MapIcon.png */,
+				360EE57D1491EB88008EB7E4 /* Ship.png */,
+				360EE57B1491EB5B008EB7E4 /* MapArea01.png */,
+				360EE5791491EB3E008EB7E4 /* BG301.png */,
 				367E96C7147D5415003F0E2B /* bg_login.png */,
 			);
 			name = background;
@@ -317,6 +347,11 @@
 				361E881F147A492500068CBD /* BG101.png in Resources */,
 				361E8822147A492E00068CBD /* Title.png in Resources */,
 				367E96C8147D5415003F0E2B /* bg_login.png in Resources */,
+				360EE57A1491EB3E008EB7E4 /* BG301.png in Resources */,
+				360EE57C1491EB5B008EB7E4 /* MapArea01.png in Resources */,
+				360EE57E1491EB88008EB7E4 /* Ship.png in Resources */,
+				360EE5811491EDFA008EB7E4 /* IconHead.png in Resources */,
+				360EE5821491EDFA008EB7E4 /* MapIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +393,9 @@
 				361E87DB147A387A00068CBD /* AFItemView.m in Sources */,
 				361E87DC147A387A00068CBD /* AFOpenFlowView.m in Sources */,
 				361E87DD147A387A00068CBD /* AFUIImageReflection.m in Sources */,
+				360EE5781491BF4F008EB7E4 /* GameMainView.m in Sources */,
+				360EE5BC14920949008EB7E4 /* MessageInfo.m in Sources */,
+				360EE5C01492EA74008EB7E4 /* ScrollviewItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

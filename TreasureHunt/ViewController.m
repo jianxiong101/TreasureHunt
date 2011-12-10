@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SelectActor.h"
+
 
 @implementation ViewController
 
@@ -21,6 +21,8 @@
 
 - (void)viewDidLoad
 {
+    [[NSNotificationCenter defaultCenter]  addObserver:self  selector:@selector(enterMianView:)  name:@"enteryMain" object:nil];
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
@@ -41,34 +43,34 @@
     
     
     UILabel *Title2 = [[UILabel alloc] initWithFrame:CGRectMake(85, 500, 150, 30)];
-    
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationBeginsFromCurrentState:YES];
     [UIView setAnimationDuration:1.0];
-    //[UIView setAnimationTransition: UIViewAnimationTransitionCurlDown forView: Title2 cache:YES];
-    
     CGRect rect = CGRectMake(320,0, 320, 30);//创建矩形框
     UIImage *pMyImage=[UIImage imageWithCGImage:CGImageCreateWithImageInRect([image CGImage], rect)];
-    
     Title2.frame=CGRectMake(85, 400, 150, 30);
     [Title2 setBackgroundColor:[[UIColor alloc] initWithPatternImage:pMyImage]];
-    
     Title2.transform = CGAffineTransformIdentity;  
-   
     [self.view addSubview:Title2];
     [UIView commitAnimations];
     
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration:2.0];
     [UIView setAnimationRepeatCount:10000];
-
      Title2.alpha=0;
      Title2.alpha=1;
      Title2.alpha=0.5;
-     Title2.alpha=0.6;
-    Title1.alpha=0.833;
     [UIView commitAnimations];
     
+}
+-(bool)enterMianView:(NSNotification *)note
+{
+  NSDictionary *pr = [note userInfo];
+  NSInteger indexselect = [pr GetIndex];
+  
+  _gamemainview = [[GameMainView alloc] initWithNibName:nil bundle:nil index:indexselect];
+  [self.view addSubview:_gamemainview.view];   
+
 }
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -77,14 +79,15 @@
     
     if([self IsContainPos:originalPoint])
     {
-      
+        _pac = [[SelectActor alloc] initWithNibName:nil bundle:nil];
+        [self.view addSubview:_pac.view];
     }
     
     
 }
 -(bool)IsContainPos:(CGPoint)pos
 {
-    CGRect rc=CGRectMake(85, 400, 150, 30);
+   
     if((pos.x>85)&&(pos.x<85+150))
     {
       if((pos.y>400)&&(pos.y<400+30))
@@ -101,6 +104,8 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    [_pac release];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated

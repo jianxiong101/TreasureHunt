@@ -16,7 +16,7 @@
     if (self) {
         // Custom initialization
         self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"MapWorld.png"]];
-        
+        self.view.frame=CGRectMake(0,0,320,480);
          
         }
     return self;
@@ -47,7 +47,7 @@
     
     loadImagesOperationQueue = [[NSOperationQueue alloc] init];
     
-    AFOpenFlowView *pflow = [[AFOpenFlowView alloc] initWithFrame:CGRectMake(0,20,320,480)];
+    AFOpenFlowView *pflow = [[AFOpenFlowView alloc] initWithFrame:CGRectMake(0,0,320,480)];
     
 	NSString *imageNamesrc;
 	for (int i=0; i<4; i++) 
@@ -68,13 +68,16 @@
     
     [self.view addSubview:pflow];
     
-    _pbt = [[UIButton alloc] initWithFrame:CGRectMake(200,410,80,30)];
+    _pbt = [[UIButton alloc] initWithFrame:CGRectMake(200,425,80,30)];
     [_pbt setBackgroundColor:[UIColor blueColor]];
     [_pbt setTitle:@"决定" forState:0];
     
+    [_pbt addTarget:self
+             action:@selector(handleSelect) 
+   forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_pbt];
     
-    _SelectName = [[UILabel alloc] initWithFrame:CGRectMake((320-100)/2, 480-100, 100,40)];
+    _SelectName = [[UILabel alloc] initWithFrame:CGRectMake((320-100)/2, 480-90, 100,20)];
     [_SelectName setBackgroundColor:[UIColor blackColor]]; 
     _SelectName.text=@"太郎";
     _SelectName.textAlignment=UITextAlignmentCenter;
@@ -92,8 +95,19 @@
     NSArray *pNameSelect = [NSArray arrayWithObjects:@"太郎",@"小妹",@"大熊",@"小狗",nil];
     //NSString *p=[pNameSelect objectAtIndex:index];
     _SelectName.text=[pNameSelect objectAtIndex:index];
+    _SelectIndex=index;
 }
+-(void)handleSelect
+{
+    
+    MessageInfo *pinfo = [[MessageInfo alloc] init];
+    [pinfo SetIndex:_SelectIndex];
+    NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+    [nc postNotificationName:@"enteryMain" object:self userInfo:(NSDictionary *)pinfo];
+    //[self.view removeFromSuperview];
+   
 
+}
 // setting the image 1 as the default pic
 - (UIImage *)defaultImage{
     
